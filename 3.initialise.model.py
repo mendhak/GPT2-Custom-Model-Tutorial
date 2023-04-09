@@ -43,7 +43,7 @@ config = GPT2Config(
 # creating the model
 model = TFGPT2LMHeadModel(config)
 
-for filenames in batched_it(paths[0:1000], 1000):
+for filenames in batched_it(paths[0:10000], 1000):
     single_string = ''
     for filename in list(filenames):
         with open(filename, "r", encoding='utf-8') as f:

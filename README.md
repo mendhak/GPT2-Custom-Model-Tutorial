@@ -1,10 +1,15 @@
-https://www.tensorflow.org/install/pip#linux
+## Setup
 
-Don't use pip environment, use conda environment. 
+[Set up TensorFlow](https://www.tensorflow.org/install/pip#linux) by following the Step-by-step instructions, not the quick ones. Include steps to test the NVIDIA GPU and the fix for Ubuntu 22.04. 
+
+
+Repeated instructions:
 
 ```
+conda env create -f environment.conda.yml python=3.9
 conda activate tf
 pip install -r requirements.txt
+
 ```
 
 
