@@ -1,4 +1,4 @@
-Repository to support [a tutorial](https://towardsdatascience.com/train-gpt-2-in-your-own-language-fc6ad4d60171) on using GPT-2 to train your own model. 
+Repository to support [a tutorial](https://towardsdatascience.com/train-gpt-2-in-your-own-language-fc6ad4d60171) on using GPT-2 to train your own model. Tested on Ubuntu 22.04 with NVidia RTX 2080 Ti. 
 
 ## Setup
 
