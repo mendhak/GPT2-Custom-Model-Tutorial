@@ -6,5 +6,6 @@ tokenizer = BPE_token()
 # train the tokenizer model
 tokenizer.bpe_train(paths) 
 # saving the tokenized data in our specified folder 
-save_path = 'tokenized_data'
-tokenizer.save_tokenizer(save_path)
+# save_path = 'tokenized_data'
+output_dir = './model_custom/'
+tokenizer.save_tokenizer(output_dir)
