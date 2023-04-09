@@ -1,3 +1,5 @@
+Repository to support [a tutorial](https://towardsdatascience.com/train-gpt-2-in-your-own-language-fc6ad4d60171) on using GPT-2 to train your own model. 
+
 ## Setup
 
 [Set up TensorFlow](https://www.tensorflow.org/install/pip#linux) by following the Step-by-step instructions, not the quick ones. Include steps to test the NVIDIA GPU and the fix for Ubuntu 22.04. 
