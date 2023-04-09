@@ -4,7 +4,7 @@ output_dir = './model_custom/'
 tokenizer = GPT2Tokenizer.from_pretrained(output_dir)
 model = TFGPT2LMHeadModel.from_pretrained(output_dir)
 
-text = "wikipedia "# encoding the input text
+text = "Election, France, income, stream, freshman"# encoding the input text
 input_ids = tokenizer.encode(text, return_tensors='tf')# getting out output
 beam_output = model.generate(
   input_ids,
