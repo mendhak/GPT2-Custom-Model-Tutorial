@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 A lot of files get downloaded and consume disk space. 
 
-Transformers cache: /home/mendhak/.cache/huggingface/  
-Anaconda: /home/mendhak/anaconda3  
-Miniconda: /home/mendhak/miniconda3  
+Transformers cache: ~/.cache/huggingface/  
+Anaconda: ~/anaconda3  
+Miniconda: ~/miniconda3  
 
