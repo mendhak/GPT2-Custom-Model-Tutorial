@@ -63,3 +63,5 @@ Miniconda: ~/miniconda3
 https://keras.io/examples/generative/text_generation_gpt/
 
 https://keras.io/examples/generative/text_generation_with_miniature_gpt/
+
+https://stackabuse.com/gpt-style-text-generation-in-python-with-tensorflowkeras/
