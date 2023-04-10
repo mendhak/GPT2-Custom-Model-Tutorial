@@ -56,3 +56,10 @@ Transformers cache: ~/.cache/huggingface/
 Anaconda: ~/anaconda3  
 Miniconda: ~/miniconda3  
 
+
+
+## Other
+
+https://keras.io/examples/generative/text_generation_gpt/
+
+https://keras.io/examples/generative/text_generation_with_miniature_gpt/

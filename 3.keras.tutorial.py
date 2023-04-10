@@ -401,3 +401,28 @@ full GPT model, here are some further readings:
 - Attention Is All You Need [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
 - GPT-3 Paper [Brown et al., 2020](https://arxiv.org/abs/2005.14165)
 """
+
+
+#------------------------------------
+
+from transformers import WEIGHTS_NAME, CONFIG_NAME
+from transformers import GPT2Config, TFGPT2LMHeadModel, GPT2Tokenizer
+import tensorflow as tf
+
+import os
+output_dir = "keras_model_output"
+# creating directory if it is not present
+if not os.path.exists(output_dir):
+    os.mkdir(output_dir)
+# model_to_save = model.module if hasattr(model, 'module') else model
+# output_model_file = os.path.join(output_dir, WEIGHTS_NAME)
+# output_config_file = os.path.join(output_dir, CONFIG_NAME)
+# save model and model configs
+model.save(output_dir+"/output.h5")
+
+#tf.keras.models.save_model(model, output_dir)
+
+# model_to_save.config.to_json_file(output_config_file)
+# save tokenizer
+# tokenizer.save_pretrained(output_dir)
+
